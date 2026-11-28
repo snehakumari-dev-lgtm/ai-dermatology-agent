@@ -1,0 +1,14 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic>=2.7,<3
+pydantic-settings>=2.3
+httpx>=0.27
+pillow>=10.3
+numpy>=1.26
+scikit-learn>=1.4
+torch>=2.2
+torchvision>=0.17
+# Optional embedding/FAISS backend (set RAG_BACKEND=faiss):
+# faiss-cpu>=1.8
+# sentence-transformers>=3.0
